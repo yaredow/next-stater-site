@@ -2,15 +2,14 @@ import { ArrowRightIcon, Github } from "lucide-react";
 import type React from "react";
 import Link from "next/link";
 
-import { AnimatedShinyText } from "@/components/magicui/animated-shiny-text";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { AnimatedShinyText } from "@/components/magicui/animated-shiny-text";
 import { OrbitingCircles } from "@/components/magicui/orbiting-circles";
 import { BlurFade } from "@/components/magicui/blur-fade";
-import { technologies } from "@/modules/home/constants";
 import { Icons } from "@/components/shared/icons";
 import { Button } from "@/components/ui/button";
+import { technologies } from "@/constants";
 import { cn } from "@/lib/utils";
-import { SiteConfig } from "@/configs/site.config";
 
 const BLUR_FADE_DELAY = 0.04;
 
