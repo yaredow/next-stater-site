@@ -1,6 +1,5 @@
 type IconProps = React.HTMLAttributes<SVGElement>;
 
-import { drizzle } from "drizzle-orm/singlestore/driver";
 import {
   AlertTriangle,
   ArrowRight,
