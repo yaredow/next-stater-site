@@ -10,6 +10,8 @@
 # testing
 /coverage
 
+/.source/
+
 # next.js
 /.next/
 /out/

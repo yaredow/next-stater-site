@@ -1,5 +1,11 @@
 /** @type {import('next').NextConfig} */
+
+import { createMDX } from "fumadocs-mdx/next";
+
+const withMDX = createMDX();
+
 const nextConfig = {
+  reactStrictMode: true,
   images: {
     remotePatterns: [
       { hostname: "lh3.googleusercontent.com" },
@@ -11,4 +17,4 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+export default withMDX(nextConfig);
