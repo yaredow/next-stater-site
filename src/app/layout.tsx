@@ -2,7 +2,6 @@ import { Inter, JetBrains_Mono, Montserrat } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
 import { Toaster } from "sonner";
 
-import { ThemeProvider } from "@/components/providers/theme-provider";
 import { SiteConfig } from "@/configs/site.config";
 import {
   OrganizationJsonLd,
@@ -10,11 +9,12 @@ import {
 } from "@/components/seo/structured-data";
 import { cn } from "@/lib/utils";
 
-import "./globals.css";
-import { Header } from "@/components/header";
 import { Footer } from "@/components/ui/footer";
 import { Icons } from "@/components/shared/icons";
 import { RootProvider } from "fumadocs-ui/provider";
+
+import "fumadocs-ui/style.css";
+import "./globals.css";
 
 const fontSans = Inter({
   subsets: ["latin"],
