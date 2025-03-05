@@ -25,7 +25,7 @@ export default function Home() {
                   "group rounded-full text-base transition-all ease-in hover:cursor-pointer",
                 )}
               >
-                <AnimatedShinyText className="inline-flex items-center justify-center rounded-full border border-blue-200 bg-blue-50 px-4 py-1 transition ease-out hover:text-blue-600 hover:duration-300 dark:border-blue-800/30 dark:bg-blue-900 hover:dark:text-blue-400">
+                <AnimatedShinyText className="inline-flex items-center justify-center rounded-full border border-blue-200 bg-blue-50 px-4 py-1 transition ease-out hover:text-blue-600 hover:duration-300 dark:border-blue-800/30 dark:bg-blue-900 dark:hover:text-blue-400">
                   <span>✨ Feature rich Next.js template</span>
                   <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
                 </AnimatedShinyText>
@@ -33,7 +33,7 @@ export default function Home() {
             </div>
 
             <BlurFade delay={BLUR_FADE_DELAY * 3}>
-              <h1 className="bg-gradient-to-r from-blue-950 via-blue-700 to-blue-900 bg-clip-text font-montserrat text-5xl font-bold tracking-tight text-transparent dark:from-blue-50 dark:via-blue-400 dark:to-blue-200 sm:text-4xl md:text-6xl">
+              <h1 className="bg-linear-to-r from-blue-950 via-blue-700 to-blue-900 bg-clip-text font-montserrat text-5xl font-bold tracking-tight text-transparent dark:from-blue-50 dark:via-blue-400 dark:to-blue-200 sm:text-4xl md:text-6xl">
                 Next Starter Template
               </h1>
             </BlurFade>
@@ -89,14 +89,14 @@ export default function Home() {
                         "group rounded-full text-base transition-all ease-in hover:cursor-pointer",
                       )}
                     >
-                      <AnimatedShinyText className="inline-flex items-center justify-center rounded-full border border-blue-200 bg-blue-50 px-4 py-1 transition ease-out hover:text-blue-600 hover:duration-300 dark:border-blue-800/30 dark:bg-blue-900 hover:dark:text-blue-400">
+                      <AnimatedShinyText className="inline-flex items-center justify-center rounded-full border border-blue-200 bg-blue-50 px-4 py-1 transition ease-out hover:text-blue-600 hover:duration-300 dark:border-blue-800/30 dark:bg-blue-900 dark:hover:text-blue-400">
                         <span>✨ Explore our adavantages</span>
                         <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
                       </AnimatedShinyText>
                     </div>
                   </div>
 
-                  <h1 className="bg-gradient-to-r from-blue-950 via-blue-700 to-blue-900 bg-clip-text font-montserrat text-4xl font-bold tracking-tight text-transparent dark:from-blue-50 dark:via-blue-400 dark:to-blue-200 sm:text-3xl md:text-4xl">
+                  <h1 className="bg-linear-to-r from-blue-950 via-blue-700 to-blue-900 bg-clip-text font-montserrat text-4xl font-bold tracking-tight text-transparent dark:from-blue-50 dark:via-blue-400 dark:to-blue-200 sm:text-3xl md:text-4xl">
                     Make Development Easier
                   </h1>
 
@@ -154,7 +154,7 @@ export default function Home() {
         <section className="py-18 w-full px-4">
           <div className="mx-auto max-w-6xl space-y-8 text-center">
             <div className="space-y-4">
-              <h2 className="bg-gradient-to-r from-blue-950 via-blue-700 to-blue-900 bg-clip-text font-montserrat text-4xl font-bold tracking-tight text-transparent dark:from-blue-50 dark:via-blue-400 dark:to-blue-200 sm:text-3xl md:text-4xl">
+              <h2 className="bg-linear-to-r from-blue-950 via-blue-700 to-blue-900 bg-clip-text font-montserrat text-4xl font-bold tracking-tight text-transparent dark:from-blue-50 dark:via-blue-400 dark:to-blue-200 sm:text-3xl md:text-4xl">
                 Built with Modern Tech Stack
               </h2>
               <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
@@ -167,7 +167,7 @@ export default function Home() {
               {technologies.map((tech) => (
                 <Card
                   key={tech.name}
-                  className="group relative overflow-hidden border border-blue-50 bg-gradient-to-b from-white to-blue-50/10 transition-shadow hover:shadow-md hover:shadow-blue-50 dark:border-blue-900/30 dark:from-background dark:to-blue-950/5 dark:hover:shadow-blue-900/10"
+                  className="group relative overflow-hidden border border-blue-50 bg-linear-to-b from-white to-blue-50/10 transition-shadow hover:shadow-md hover:shadow-blue-50 dark:border-blue-900/30 dark:from-background dark:to-blue-950/5 dark:hover:shadow-blue-900/10"
                 >
                   <CardHeader className="space-y-2">
                     <div className="flex items-center justify-between">
@@ -200,7 +200,7 @@ export default function Home() {
         }}
         aria-hidden="true"
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-background/20 to-background/0" />
+        <div className="absolute inset-0 bg-linear-to-r from-background/20 to-background/0" />
       </div>
     </main>
   );
