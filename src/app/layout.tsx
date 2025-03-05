@@ -1,5 +1,4 @@
 import { Inter, JetBrains_Mono, Montserrat } from "next/font/google";
-import NextTopLoader from "nextjs-toploader";
 import { Toaster } from "sonner";
 
 import { SiteConfig } from "@/configs/site.config";
