@@ -9,6 +9,7 @@ import type { BaseLayoutProps } from "fumadocs-ui/layouts/shared";
  */
 export const baseOptions: BaseLayoutProps = {
   nav: {
+    transparentMode: "top",
     title: (
       <>
         <svg
@@ -19,7 +20,7 @@ export const baseOptions: BaseLayoutProps = {
         >
           <circle cx={12} cy={12} r={12} fill="currentColor" />
         </svg>
-        My App
+        Next-start
       </>
     ),
   },
