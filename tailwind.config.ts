@@ -7,6 +7,7 @@ const config = {
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
+    "./node_modules/fumadocs-ui/dist/style.css", // Add this line to include fumadocs-ui's CSS
   ],
   prefix: "",
   theme: {
