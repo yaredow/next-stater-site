@@ -56,7 +56,7 @@ export default function RootLayout({
       </head>
       <body
         className={cn(
-          `flex min-h-[100vh] flex-col antialiased ${fontSans.variable} ${fontMono.variable} ${fontMontserrat.variable}`,
+          `flex min-h-[100vh] flex-col ${fontSans.variable} ${fontMono.variable} ${fontMontserrat.variable}`,
         )}
       >
         <RootProvider>{children}</RootProvider>
