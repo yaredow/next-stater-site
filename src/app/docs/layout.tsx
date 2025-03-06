@@ -1,4 +1,4 @@
-import { DocsLayout } from "fumadocs-ui/layouts/notebook";
+import { DocsLayout } from "fumadocs-ui/layouts/docs";
 import type { ReactNode } from "react";
 
 import { baseOptions } from "@/app/layout.config";
@@ -11,8 +11,7 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   return (
     <DocsLayout
-      nav={{ ...baseOptions.nav, mode: "auto" }}
-      tabMode="navbar"
+      nav={{ ...baseOptions.nav }}
       tree={source.pageTree}
       {...baseOptions}
     >
